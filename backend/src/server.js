@@ -8,11 +8,12 @@ app.use(express.json());// preciso falar pro express que vamos trabalhar com jso
 app.use(cors());
 app.use(routes);
 
+
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
 
 
 app.listen(3001, () => {
-    console.log('listening on port 3000');
+    console.log('ta funcionando');
 }); 
