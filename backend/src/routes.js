@@ -1,5 +1,4 @@
 const express = require('express');
-
 const routes = express.Router();
 const users = [{
     //criei um usuario fixo apenas para fim de testar meu login
